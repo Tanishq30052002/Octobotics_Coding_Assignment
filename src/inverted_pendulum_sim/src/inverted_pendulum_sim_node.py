@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # /* ------------- COPYRIGHT NOTICE ---------------
 #
 # Copyright (C) 2022 Octobotics Tech Pvt. Ltd. All Rights Reserved.
