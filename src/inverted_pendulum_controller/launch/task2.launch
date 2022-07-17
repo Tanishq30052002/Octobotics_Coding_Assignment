@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<launch>
+    <node pkg="inverted_pendulum_sim" type="inverted_pendulum_sim_node.py" name="InvertedPendulum" required="true"/>
+    <node pkg="inverted_pendulum_controller" type="Task_1.py" name="Set_Parameters" output="screen" required="true"/>
+    <node pkg="inverted_pendulum_controller" type="Task_2.py" name="Sinusoidal_Wave_Input_Force" output="screen" required="true"/>
+</launch>
